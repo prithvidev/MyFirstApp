@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });**/
         windowview = findViewById(R.id.layout2);
-        windowview.setBackground(Drawable.createFromPath("template.png"));
 
         enterMeters = (EditText) findViewById(R.id.enterMeters);
         getInches = (TextView) findViewById(R.id.getInches);
